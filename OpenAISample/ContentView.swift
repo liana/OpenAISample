@@ -24,7 +24,7 @@ struct ContentView: View {
                     .cornerRadius(10)
                     .frame(height: 200)
                 if prompt.isEmpty {
-                    Text("Type a question here...").foregroundColor(.gray)
+                    Text("Type a question above...").foregroundColor(.gray)
                 }
             }
             Button(action: {
